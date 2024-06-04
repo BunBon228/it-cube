@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size: 15px;
+    font-weight: 400;
+    color: #0A0D8E;
+}
+
+a{
+    text-decoration: none;
+    color: #0A0D8E;
+}
+
+
+.btn{
+    border: none;
+    outline: none;
+    font-size: 9px;
+    font-weight: 500;
+    color: #0A0D8E;
+    text-transform: uppercase;
+    padding: 7px 20px;
+    box-shadow: 0px 0px 10px 0px rgba(51, 51, 51, 0.5);
+    background-color: transparent;
+    border-radius: 15px;
+    margin: 60px auto 0 auto;
+    display: flex;
+    width: fit-content;
+
+    &:active{
+        box-shadow: 0px 0px 10px 0px rgba(34, 68, 255, 0.5);
+    }
+
+}

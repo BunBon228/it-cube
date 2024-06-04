@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size: 15px;
+    font-weight: 400;
+    color: #0A0D8E;
+}
+
+.logo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.logo h1{
+    margin-left: 30px;
+    display: flex;
+    max-width: 211px;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+ul.otdel{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 100%;
+    align-items: center;
+
+    & li{
+        display: flex;
+        flex-direction: column;
+        max-width: 250px;
+        width: 100%;
+        margin-bottom: 50px;
+        text-align: center;
+
+        & img{
+            border-radius: 15px;
+            margin-bottom: 15px;
+            width: 100%;
+            height: auto;
+        }
+
+        & h2{
+            text-transform: uppercase;
+            font-size: 10px;
+            font-weight: 700;
+
+            &:not(:last-of-type){
+                margin-bottom: 10px;
+            }
+
+        }
+
+    }
+
+}
+
+ul.otdel__list{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 570px;
+    margin: 100px auto 0 auto;
+
+    & li{
+        max-width: 250px;
+        width: 100%;
+        margin: 20px 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        & img{
+            width: 70px;
+            height: 70px;
+            margin-bottom: 25px;
+        }
+
+        & h2{
+            font-size: 9px;
+            font-weight: 600;
+        }
+
+    }
+
+}
+
+section.spec{
+
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto 0 auto;
+
+    & .title{
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 50px;
+        text-align: center;
+        width: 100%;
+    }
+
+    & .text__top{
+
+        display: flex;
+        margin-bottom: 20px;
+
+        &>h3{
+            font-size: 10px;
+            font-weight: 500;
+            margin-right: 5px;
+        }
+
+        &>p{
+            font-size: 10px;
+            font-weight: 500;
+            color: #333;
+        }
+
+    }
+
+    &>h3{
+        font-size: 10px;
+        font-weight: 600;
+        text-align: left;
+        width: 100%;
+        margin: 40px 0 20px 0;
+    }
+
+    & ul.obl__list{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 5px;
+
+        & li{
+            list-style-type: "-";
+            padding-left: 5px;
+            font-size: 10px;
+            font-weight: 500;
+            color: #333;
+        }
+
+    }
+
+    &>p{
+        font-size: 10px;
+        font-weight: 500;
+        color: #333;
+        margin-bottom: 50px;
+    }
+
+    & .img__block{
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+
+        & img{
+            width: 200px;
+            height: auto;
+            border-radius: 15px;
+            margin: 5px 0;
+        }
+
+    }
+
+}
+
+ul.spec__list{
+
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 50px 0 50px 50px;
+    list-style: none;
+    overflow: hidden;
+
+    & .slick-track{
+        padding: 10px 0;
+    }
+
+    & li{
+        margin: 0 10px;
+        min-width: 190px;
+        width: 190px;
+        overflow: hidden;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px 0px rgba(51, 51, 51, 0.5);
+        background-color: #fff;
+
+        &:active{
+            box-shadow: 0px 0px 10px 0px rgba(34, 68, 255, 0.5);
+        }
+
+        & a{
+            border-radius: 15px;
+            padding: 20px;
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            & img{
+                width: 50px;
+                height: 50px;
+                margin-bottom: 20px;
+            }
+
+            & h2{
+                font-size: 7px;
+                font-weight: 500;
+            }
+
+        }
+
+    }
+
+}
